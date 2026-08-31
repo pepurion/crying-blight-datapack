@@ -24,7 +24,7 @@
     "max_format": [69,0],
     "description": [
       {
-        "text": "v1.2 - Distribution Update",
+        "text": "v1.2-pre - Distribution Update",
         "color": "#8452d9"
       },
       {
@@ -37,10 +37,5 @@
   "pipeline": [
     "mecha"
   ],
-  "output": "build",
-  "meta":{
-    "bolt":{
-      "entrypoint":["bi:main"]
-    }
-  }
+  "output": "build"
 }
