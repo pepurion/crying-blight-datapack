@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"Ничего не останется","color":"dark_purple"}]

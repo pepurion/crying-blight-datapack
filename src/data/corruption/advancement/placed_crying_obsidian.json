@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "block_state_property",
+            "block": "crying_obsidian"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "corruption:blocks/crying_obsidian/placed_crying_obsidian"
+  }
+}

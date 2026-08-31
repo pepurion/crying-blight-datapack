@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"Это скоро закончится","color":"dark_purple"}]

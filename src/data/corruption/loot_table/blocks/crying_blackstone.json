@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "Crying Blackstone",
+                                "minecraft:item_model": "corruption:crying_blackstone",
+                                "entity_data": {
+                                    "id": "minecraft:item_frame",
+                                    "Tags": [
+                                        "corruption.crying_blackstone",
+                                        "corruption.item_frame_block"
+                                    ],
+                                    "Facing": 1,
+                                    "Invulnerable": true,
+                                    "Invisible": true,
+                                    "Fixed": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

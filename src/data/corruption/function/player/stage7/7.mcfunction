@@ -1,0 +1,10 @@
+execute as @s[scores={p_stage7_death=1}] run function corruption:player/stage7/7_death
+
+scoreboard players add @s p_stage7_tick 1
+execute as @s[scores={p_stage7_tick=160..}] run function corruption:player/stage7/7_effect
+
+scoreboard players add @s p_corruption 1
+
+particle minecraft:falling_obsidian_tear ~ ~1.5 ~ 1.3 1 1.3 0 2 normal @a[scores={p_corruption=..3199999}]
+particle minecraft:mycelium ~ ~1 ~ 12 3 12 0 250 normal @s
+particle minecraft:falling_obsidian_tear ~ ~20 ~ 24 3 24 0 8 normal @s

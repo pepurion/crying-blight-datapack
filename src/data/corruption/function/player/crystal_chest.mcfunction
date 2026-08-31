@@ -1,0 +1,1 @@
+loot replace entity @s armor.chest loot corruption:items/crying_crystal

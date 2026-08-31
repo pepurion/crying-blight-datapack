@@ -1,0 +1,37 @@
+{
+    "crying_blight.item.notepad": "Планшет",
+    "crying_blight.item.purifier": "Очиститель",
+    "crying_blight.item.world_eater": "Поедатель мира",
+    "crying_blight.item.tear_of_the_corrupted": "Слеза заражённого",
+    "crying_blight.item.tear_of_the_corrupted.lore1": "Всё ещё слышно её плач",
+    "crying_blight.item.tear_of_the_corrupted.lore2": "Пассивные эффекты (10 Макс)",
+    "crying_blight.item.tear_of_the_corrupted.lore3": "+ Защита",
+    "crying_blight.item.tear_of_the_corrupted.lore4": "- Перемещение",
+    "crying_blight.item.crystal_head": "Плачущая друза",
+    "crying_blight.item.crystal_chest": "Плачущий красталл",
+
+    "crying_blight.mod.wings.name": "Плачущие крылья",
+    "crying_blight.mod.wings.resist": "Тело ещё может сопротивляться...",
+
+    "crying_blight.stage.get.1": "Что-то не так...",
+    "crying_blight.stage.get.2": "Ты чувствуешь вялость",
+    "crying_blight.stage.get.2.sub": "Атаки ослабли",
+    "crying_blight.stage.get.3": "Ты слышишь треск",
+    "crying_blight.stage.get.3.sub": "У тебя что-то на спине",
+    "crying_blight.stage.get.4": "Ты чувствуешь тяжесть",
+    "crying_blight.stage.get.4.sub": "Движение тратит больше сил",
+    "crying_blight.stage.get.5": "Ты чувствуешь грусть",
+    "crying_blight.stage.get.5.sub": "Тебе нужна компания",
+    "crying_blight.stage.get.6": "Они с тобой",
+    "crying_blight.stage.get.6.sub": "Скоро мучения пройдут",
+    "crying_blight.stage.get.7": "Мы с тобой",
+    "crying_blight.stage.get.7.sub": "Успокойся",
+
+    "crying_blight.stage.lose.1": "Умиротворение...",
+    "crying_blight.stage.lose.2": "Приток сил...",
+    "crying_blight.stage.lose.3": "Груз спал с плеч...",
+    "crying_blight.stage.lose.4": "Лёгкость...",
+    "crying_blight.stage.lose.5": "Слёзы ушли...",
+    "crying_blight.stage.lose.6": "Рассудок вернулся...",
+    "crying_blight.stage.lose.7": "Тишина..."
+}

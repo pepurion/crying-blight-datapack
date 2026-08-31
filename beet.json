@@ -1,0 +1,46 @@
+{
+  "name": "Crying Blight",
+  "author": "Pepurion",
+  "version": "1.2-pre",
+  "data_pack": {
+    "name": "Crying Blight [DP]",
+    "min_format": [88,0],
+    "max_format": [88,0],
+    "description": [
+      {
+        "text": "v1.2-pre - Distribution Update",
+        "color": "#8452d9"
+      },
+      {
+        "text": "\nFor MC 1.21.10",
+        "color": "#908b8b"
+      }
+    ],
+    "load":["src"]
+  },
+  "resource_pack": {
+    "name": "Crying Blight [RP]",
+    "min_format": [69,0],
+    "max_format": [69,0],
+    "description": [
+      {
+        "text": "v1.2 - Distribution Update",
+        "color": "#8452d9"
+      },
+      {
+        "text": "\nFor MC 1.21.10",
+        "color": "#908b8b"
+      }
+    ],
+    "load":["src"]
+  },
+  "pipeline": [
+    "mecha"
+  ],
+  "output": "build",
+  "meta":{
+    "bolt":{
+      "entrypoint":["bi:main"]
+    }
+  }
+}

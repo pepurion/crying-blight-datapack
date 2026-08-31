@@ -1,0 +1,1 @@
+execute at @a[scores={p_corruption=..799999}] run particle minecraft:mycelium ~ ~1 ~ 0.25 0.4 0.25 0 150 normal @s

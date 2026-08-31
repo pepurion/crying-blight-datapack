@@ -1,0 +1,19 @@
+{
+   "model": {
+      "type": "select",
+      "property": "custom_model_data",
+      "fallback": {
+         "type": "model",
+         "model": "item/writable_book"
+      },
+      "cases": [
+         {
+            "when": "notepad",
+            "model": {
+               "type": "model",
+               "model": "corruption:item/notepad"
+            }
+         }
+      ]
+   }
+}

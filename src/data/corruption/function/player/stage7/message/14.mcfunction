@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"Мы защитим тебя","color":"dark_purple"}]

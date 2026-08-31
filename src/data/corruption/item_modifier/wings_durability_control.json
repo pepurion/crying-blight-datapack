@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_damage",
+  "damage": {
+    "type": "minecraft:score",
+    "target": {
+      "type": "minecraft:context",
+      "target": "this"
+    },
+    "score": "p_wings_durability",
+    "scale": 0.0166
+  },
+  "conditions": []
+}

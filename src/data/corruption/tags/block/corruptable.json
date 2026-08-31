@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:obsidian",
+    "#corruption:netherrack",
+    "minecraft:soul_soil",
+    "minecraft:soul_sand",
+    "#corruption:blackstone",
+    "minecraft:basalt"
+  ]
+}

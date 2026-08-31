@@ -1,0 +1,37 @@
+{
+    "crying_blight.item.notepad": "Notepad",
+    "crying_blight.item.purifier": "Purifier",
+    "crying_blight.item.world_eater": "World Eater",
+    "crying_blight.item.tear_of_the_corrupted": "Tear of The Corrupted",
+    "crying_blight.item.tear_of_the_corrupted.lore1": "You can still hear it cry",
+    "crying_blight.item.tear_of_the_corrupted.lore2": "Passive effects (10 Max)",
+    "crying_blight.item.tear_of_the_corrupted.lore3": "+ Defence",
+    "crying_blight.item.tear_of_the_corrupted.lore4": "- Movement",
+    "crying_blight.item.crystal_head": "Crying Cluster",
+    "crying_blight.item.crystal_chest": "Crying Crystal",
+
+    "crying_blight.mod.wings.name": "Crying Wings",
+    "crying_blight.mod.wings.resist": "The body can still resist...",
+
+    "crying_blight.stage.get.1": "Something's wrong...",
+    "crying_blight.stage.get.2": "You feel sluggish",
+    "crying_blight.stage.get.2.sub": "Attacks are weaker",
+    "crying_blight.stage.get.3": "You hear cracks",
+    "crying_blight.stage.get.3.sub": "There's something on your back",
+    "crying_blight.stage.get.4": "You feel heavy",
+    "crying_blight.stage.get.4.sub": "Moving takes more energy",
+    "crying_blight.stage.get.5": "You feel sad",
+    "crying_blight.stage.get.5.sub": "You need company",
+    "crying_blight.stage.get.6": "They are with you",
+    "crying_blight.stage.get.6.sub": "It will end soon",
+    "crying_blight.stage.get.7": "We are with you",
+    "crying_blight.stage.get.7.sub": "Relax",
+
+    "crying_blight.stage.lose.1": "Peace...",
+    "crying_blight.stage.lose.2": "Feeling fresh...",
+    "crying_blight.stage.lose.3": "Weight was lifted...",
+    "crying_blight.stage.lose.4": "So light...",
+    "crying_blight.stage.lose.5": "Tears are gone...",
+    "crying_blight.stage.lose.6": "Mind is clear...",
+    "crying_blight.stage.lose.7": "Silence..."
+}

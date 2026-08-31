@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "crying_blight.mod.wings.name",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                "item_model": "corruption:crying_elytra",
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "corruption:crying_elytra",
+                  "equip_sound": "minecraft:block.deepslate.hit",
+                  "damage_on_hurt": false
+                },
+                "glider": {},
+                "attribute_modifiers": [{
+                  "type": "armor",
+                  "amount": 0,
+                  "operation": "add_value",
+                  "id": "1765652866067"
+                }],
+                "enchantment_glint_override": false,
+                "enchantments": {
+                  "binding_curse": 1,
+                  "vanishing_curse": 1
+                },
+                "tooltip_display": {
+                  "hidden_components": [
+                    "attribute_modifiers",
+                    "enchantments"
+                  ]
+                },
+                "max_damage": 60,
+                "damage": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

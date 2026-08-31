@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": {
+                  "translate": "crying_blight.item.notepad"
+                },
+                "custom_model_data": {
+                  "strings": ["notepad"]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

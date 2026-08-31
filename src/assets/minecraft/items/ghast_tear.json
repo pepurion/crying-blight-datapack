@@ -1,0 +1,19 @@
+{
+   "model": {
+      "type": "select",
+      "property": "custom_model_data",
+      "fallback": {
+         "type": "model",
+         "model": "item/ghast_tear"
+      },
+      "cases": [
+         {
+            "when": "corrupted",
+            "model": {
+               "type": "model",
+               "model": "corruption:item/tear_of_the_corrupted"
+            }
+         }
+      ]
+   }
+}
