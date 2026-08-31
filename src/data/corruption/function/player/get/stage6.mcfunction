@@ -1,7 +1,7 @@
 scoreboard players set @s p_stage 6
 title @s times 5 100 40
-title @s title [{"translate":"crying_blight.stage.get.6","color":"dark_purple"}]
-title @s subtitle [{"translate":"crying_blight.stage.get.6.sub","italic":true,"color":"dark_purple"}]
+title @s title [{"translate":"crying_blight.stage6.get","color":"dark_purple"}]
+title @s subtitle [{"translate":"crying_blight.stage6.get.sub","italic":true,"color":"dark_purple"}]
 
 playsound minecraft:ambient.soul_sand_valley.mood player @s ~ ~ ~ 12 0.5
 effect give @s darkness 10 0 true

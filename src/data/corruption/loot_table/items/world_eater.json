@@ -16,6 +16,13 @@
                   "bold": true,
                   "italic": false
                 },
+                "lore": [
+                  {
+                    "translate": "crying_blight.item.world_eater.lore",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
                 "minecraft:custom_data": {
                   "world_eater": true
                 },

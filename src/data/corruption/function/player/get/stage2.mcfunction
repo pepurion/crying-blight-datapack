@@ -1,7 +1,7 @@
 scoreboard players set @s p_stage 2
 title @s times 5 100 40
-title @s title [{"translate":"crying_blight.stage.get.2","color":"red"}]
-title @s subtitle [{"translate":"crying_blight.stage.get.2.sub","italic":true,"color":"gold"}]
+title @s title [{"translate":"crying_blight.stage2.get","color":"red"}]
+title @s subtitle [{"translate":"crying_blight.stage2.get.sub","italic":true,"color":"gold"}]
 
 effect give @s blindness 4 0 true
 playsound entity.warden.heartbeat player @s ~ ~ ~ 12 0.7

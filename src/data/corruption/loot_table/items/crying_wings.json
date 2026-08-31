@@ -11,7 +11,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
-                  "translate": "crying_blight.mod.wings.name",
+                  "translate": "crying_blight.item.wings",
                   "color": "light_purple",
                   "italic": false
                 },

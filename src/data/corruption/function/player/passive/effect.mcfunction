@@ -7,5 +7,5 @@ execute as @s[scores={p_stage=4..5}] run effect give @s darkness 2 0 true
 execute as @s[scores={p_stage=6}] run effect give @s blindness 3 0 true
 execute as @s[scores={p_stage=6}] run effect give @s wither 2 1 true
 
-execute as @s[scores={p_stage=3..4}] run title @s actionbar [{"text":"Ты слышишь их плач","color":"light_purple"}]
-execute as @s[scores={p_stage=5..6}] run title @s actionbar [{"text":"Раздели с ними свою грусть","color":"dark_purple"}]
+execute as @s[scores={p_stage=3..4}] run title @s actionbar [{"translate":"crying_blight.stage3.message","color":"light_purple"}]
+execute as @s[scores={p_stage=5..6}] run title @s actionbar [{"translate":"crying_blight.stage5.message","color":"dark_purple"}]

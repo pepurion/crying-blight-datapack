@@ -1,1 +1,0 @@
-title @s actionbar [{"text":"Спокойной ночи","color":"dark_purple"}]

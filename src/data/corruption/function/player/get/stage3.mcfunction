@@ -1,7 +1,7 @@
 scoreboard players set @s p_stage 3
 title @s times 5 100 40
-title @s title [{"translate":"crying_blight.stage.get.3","color":"red"}]
-title @s subtitle [{"translate":"crying_blight.stage.get.3.sub","italic":true,"color":"dark_purple"}]
+title @s title [{"translate":"crying_blight.stage3.get","color":"red"}]
+title @s subtitle [{"translate":"crying_blight.stage3.get.sub","italic":true,"color":"dark_purple"}]
 
 playsound minecraft:entity.player.hurt_freeze player @s ~ ~ ~ 12 0.4
 effect give @s blindness 4 0 true

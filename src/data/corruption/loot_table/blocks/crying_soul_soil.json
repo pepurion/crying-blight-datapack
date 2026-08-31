@@ -10,7 +10,9 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Crying Soul Soil",
+                                "minecraft:item_name": {
+                                    "translate": "crying_blight.block.crying_soul_soil"
+                                },
                                 "minecraft:item_model": "corruption:crying_soul_soil",
                                 "entity_data": {
                                     "id": "minecraft:item_frame",

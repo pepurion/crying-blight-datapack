@@ -1,7 +1,7 @@
-execute as @s[scores={p_stage7_death=1}] run function corruption:player/stage7/7_death
+execute as @s[scores={p_stage7_death=1}] run function corruption:player/stage/7/death
 
 scoreboard players add @s p_stage7_tick 1
-execute as @s[scores={p_stage7_tick=160..}] run function corruption:player/stage7/7_effect
+execute as @s[scores={p_stage7_tick=160..}] run function corruption:player/stage/7/effect
 
 scoreboard players add @s p_corruption 1
 

@@ -1,1 +1,0 @@
-title @s actionbar [{"text":"Не сопротивляйся","color":"dark_purple"}]

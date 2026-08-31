@@ -10,7 +10,9 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Crying Soul Sand",
+                                "minecraft:item_name": {
+                                    "translate": "crying_blight.block.crying_soul_sand"
+                                },
                                 "minecraft:item_model": "corruption:crying_soul_sand",
                                 "entity_data": {
                                     "id": "minecraft:item_frame",

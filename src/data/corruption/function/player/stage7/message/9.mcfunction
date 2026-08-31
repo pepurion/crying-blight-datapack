@@ -1,1 +1,0 @@
-title @s actionbar [{"text":"Всё уйдёт","color":"dark_purple"}]

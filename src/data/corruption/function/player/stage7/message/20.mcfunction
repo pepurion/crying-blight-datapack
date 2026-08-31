@@ -1,1 +1,0 @@
-title @s actionbar [{"text":"Спи, моя радость","color":"dark_purple"}]

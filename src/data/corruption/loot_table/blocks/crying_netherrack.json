@@ -10,7 +10,9 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Crying Netherrack",
+                                "minecraft:item_name": {
+                                    "translate": "crying_blight.block.crying_netherrack"
+                                },
                                 "minecraft:item_model": "corruption:crying_netherrack",
                                 "entity_data": {
                                     "id": "minecraft:item_frame",

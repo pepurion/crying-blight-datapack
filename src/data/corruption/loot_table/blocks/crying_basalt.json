@@ -10,7 +10,9 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Crying Basalt",
+                                "minecraft:item_name": {
+                                    "translate": "crying_blight.block.crying_basalt"
+                                },
                                 "minecraft:item_model": "corruption:crying_basalt",
                                 "entity_data": {
                                     "id": "minecraft:item_frame",

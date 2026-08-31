@@ -1,1 +1,0 @@
-title @s actionbar [{"text":"Они больше не тронут тебя","color":"dark_purple"}]

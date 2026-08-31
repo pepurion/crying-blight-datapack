@@ -1,5 +1,5 @@
 function corruption:player/passive/absorb
-function corruption:player/passive/heal
+execute as @s[scores={p_cry=0}] run function corruption:player/passive/heal
 function corruption:player/stage_advance
 
 execute as @s[scores={p_healed=1}] run function corruption:player/stage_reduce
@@ -21,7 +21,7 @@ execute as @s[scores={p_stage=5..,p_tear=40..}] run function corruption:player/t
 execute as @s[scores={p_stage=6..}] run function corruption:player/mist
 execute as @s[scores={p_stage=6..}] unless items entity @s armor.head minecraft:amethyst_cluster run function corruption:player/crystal_head
 
-execute as @s[scores={p_stage=7}] run function corruption:player/stage7/7
+execute as @s[scores={p_stage=7}] run function corruption:player/stage/7/main
 
 execute as @s[scores={p_modification_check=1}] run function corruption:player/mods/1_wings/get_try
 execute as @s[scores={p_modification=1}] run function corruption:player/mods/1_wings/tick

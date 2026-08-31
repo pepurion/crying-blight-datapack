@@ -1,1 +1,0 @@
-title @s actionbar [{"text":"Мир наступит","color":"dark_purple"}]

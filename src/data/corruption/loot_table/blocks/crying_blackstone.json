@@ -10,7 +10,9 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Crying Blackstone",
+                                "minecraft:item_name": {
+                                    "translate": "crying_blight.block.crying_blackstone"
+                                },
                                 "minecraft:item_model": "corruption:crying_blackstone",
                                 "entity_data": {
                                     "id": "minecraft:item_frame",
