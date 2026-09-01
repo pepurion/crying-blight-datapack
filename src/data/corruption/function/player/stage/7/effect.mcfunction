@@ -2,9 +2,9 @@ scoreboard players set @s p_stage7_tick 0
 
 playsound minecraft:block.conduit.ambient player @s ~ ~ ~ 12 0.6
 effect give @s darkness infinite 0 true
-effect give @s wither infinite 1 true
+effect give @s wither infinite 0 true
 
-damage @s 5 wither
+damage @s 6 corruption:obsidian
 
 playsound minecraft:entity.player.hurt_freeze block @a ~ ~ ~ 1 0.4
 

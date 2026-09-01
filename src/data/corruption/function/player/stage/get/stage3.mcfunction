@@ -7,7 +7,7 @@ playsound minecraft:entity.player.hurt_freeze player @s ~ ~ ~ 12 0.4
 effect give @s blindness 4 0 true
 playsound entity.warden.heartbeat player @s ~ ~ ~ 12 0.7
 
-damage @s 2 explosion
+damage @s 2 corruption:obsidian
 
 execute if items entity @s armor.chest * run summon item ~ ~1 ~ {Tags:["drop_chest"],Item:{id:"minecraft:stone"},PickupDelay:1s}
 execute as @e[type=item,tag=drop_chest] run item replace entity @s contents from entity @p armor.chest

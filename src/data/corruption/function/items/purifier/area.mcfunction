@@ -10,15 +10,15 @@ fill ~-3 ~-1 ~-1 ~3 ~1 ~1 obsidian replace crying_obsidian
 execute as @a[distance=..4,scores={p_corruption=0..}] run scoreboard players remove @s p_corruption 25000
 execute as @a[distance=..4] run scoreboard players set @s p_healed 1
 
-execute as @a[distance=..4,scores={p_stage=3}] run damage @s 4 explosion
-execute as @a[distance=..4,scores={p_stage=4}] run damage @s 8 explosion
-execute as @a[distance=..4,scores={p_stage=5}] run damage @s 12 explosion
-execute as @a[distance=..4,scores={p_stage=6}] run damage @s 16 explosion
+execute as @a[distance=..4,scores={p_stage=3}] run damage @s 4 corruption:obsidian
+execute as @a[distance=..4,scores={p_stage=4}] run damage @s 8 corruption:obsidian
+execute as @a[distance=..4,scores={p_stage=5}] run damage @s 12 corruption:obsidian
+execute as @a[distance=..4,scores={p_stage=6}] run damage @s 16 corruption:obsidian
 
 execute as @a[distance=..4,scores={p_stage=7}] run effect clear
 execute as @a[distance=..4,scores={p_stage=7}] at @s run loot spawn ~ ~ ~ loot corruption:items/tear_of_the_corrupted
 execute as @e[type=item,nbt={Item:{id:"minecraft:ghast_tear",components:{"minecraft:custom_model_data":{strings:["corrupted"]}}}},distance=..2] run data modify entity @s Glowing set value true
-execute as @a[distance=..4,scores={p_stage=7}] run damage @s 640 explosion
+execute as @a[distance=..4,scores={p_stage=7}] run damage @s 640 corruption:obsidian
 
 
 execute as @a[distance=..4,scores={p_stage=4..}] run effect give @s blindness 4 0 true

@@ -21,6 +21,9 @@
     "crying_blight.block.crying_soul_sand": "Crying Soul Sand",
     "crying_blight.block.crying_soul_soil": "Crying Soul Soil",
 
+    "death.attack.obsidian": "%s turned into obsidian",
+    "death.attack.obsidian.player": "%s turned into obsidian whilst trying to escape %s",
+
     "crying_blight.stage1.get": "Something's wrong...",
     "crying_blight.stage2.get": "You feel sluggish",
     "crying_blight.stage2.get.sub": "Attacks are weaker",

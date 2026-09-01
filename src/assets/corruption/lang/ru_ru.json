@@ -21,6 +21,9 @@
     "crying_blight.block.crying_soul_sand": "Плачущий песок душ",
     "crying_blight.block.crying_soul_soil": "Плачущая почва душ",
 
+    "death.attack.obsidian": "%s обратился в обсидиан",
+    "death.attack.obsidian.player": "%s обратился в обсидиан, спасаясь от %s",
+
     "crying_blight.stage1.get": "Что-то не так...",
     "crying_blight.stage2.get": "Ты чувствуешь вялость",
     "crying_blight.stage2.get.sub": "Атаки ослабли",
