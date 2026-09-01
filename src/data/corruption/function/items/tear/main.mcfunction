@@ -2,10 +2,7 @@ execute store result score @s p_item_tear run clear @s ghast_tear[custom_model_d
 
 execute as @s[scores={p_item_tear=1..}] run scoreboard players add @s p_corruption 1
 
-attribute @s movement_speed modifier remove item_tear
-attribute @s jump_strength modifier remove item_tear
-attribute @s armor modifier remove item_tear
-
+function corruption:items/tear/clear
 
 execute as @s[scores={p_item_tear=1}] run attribute @s movement_speed modifier add item_tear -0.03 add_multiplied_total
 execute as @s[scores={p_item_tear=1}] run attribute @s minecraft:jump_strength modifier add item_tear -0.005 add_value

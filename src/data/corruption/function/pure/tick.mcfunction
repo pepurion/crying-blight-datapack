@@ -1,1 +1,0 @@
-function corruption:pure/splash

@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:thick"}}}},distance=..4] at @s if block ~ ~-1 ~ crafting_table as @e[type=item,nbt={Item:{id:"minecraft:gunpowder"}},distance=..0.5] run function corruption:items/crafting/throwable_pure_potion
