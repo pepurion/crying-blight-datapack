@@ -39,5 +39,4 @@ scoreboard objectives add p_used_rocket minecraft.used:firework_rocket
 scoreboard objectives add p_used_trident minecraft.used:trident
 
 
-
-#scoreboard players reset @e corr_timer
+scoreboard players add @e[type=item_display,tag=corruption.custom_block] corr_margin 0

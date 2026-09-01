@@ -1,4 +1,4 @@
-execute store result score @s p_cry run clone ~-1 ~-1 ~-1 ~1 ~2 ~1 ~-1 ~-1 ~-1 filtered minecraft:crying_obsidian force
+execute if predicate corruption:5_percent store result score @s p_cry run clone ~-1 ~-1 ~-1 ~1 ~2 ~1 ~-1 ~-1 ~-1 filtered minecraft:crying_obsidian force
 
 execute as @s[scores={p_cry=1}] run scoreboard players add @s p_corruption 3
 execute as @s[scores={p_cry=2}] run scoreboard players add @s p_corruption 6

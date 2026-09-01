@@ -29,5 +29,7 @@ execute as @a[distance=..4,scores={p_stage=5..}] run playsound entity.ghast.hurt
 
 playsound minecraft:entity.zombie_villager.cure block @a ~ ~ ~ 1 1.35
 
-particle minecraft:wax_on ~ ~ ~ 1.7 1.25 1.7 5 400
+particle minecraft:wax_on ~ ~ ~ 1.7 1.25 1.7 5 400 normal
 particle minecraft:trial_spawner_detection ~ ~0.1 ~ 0.25 0 0.25 0 75 normal
+
+kill @s

@@ -1,6 +1,6 @@
 function corruption:player/passive/absorb
 execute as @s[scores={p_cry=0}] run function corruption:player/passive/heal
-function corruption:player/stage/advance
+execute if predicate corruption:5_percent run function corruption:player/stage/advance
 
 execute as @s[scores={p_healed=1}] run function corruption:player/stage/reduce
 
