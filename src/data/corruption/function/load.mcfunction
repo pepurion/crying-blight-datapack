@@ -29,7 +29,6 @@ scoreboard objectives add p_stage7_tick dummy
 scoreboard objectives add p_stage7_death deathCount
 
 scoreboard objectives add p_modification dummy
-scoreboard objectives add p_modification_check dummy
 
 scoreboard objectives add p_wings_tick dummy
 scoreboard objectives add p_wings_open dummy

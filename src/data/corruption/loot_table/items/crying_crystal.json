@@ -10,10 +10,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
+                "item_name": {
                   "translate": "crying_blight.item.crystal_chest",
-                  "color": "light_purple",
-                  "italic": false
+                  "color": "light_purple"
                 },
                 "item_model": "corruption:crystal_chestplate1",
                 "minecraft:equippable": {

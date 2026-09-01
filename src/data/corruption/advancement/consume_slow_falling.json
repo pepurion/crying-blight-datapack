@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "potion_contents": {
+              "potion": "long_slow_falling"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "corruption:player/mods/1_wings/stage_check"
+  }
+}

@@ -10,10 +10,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_name": {
+                "item_name": {
                   "translate": "crying_blight.item.wings",
-                  "color": "light_purple",
-                  "italic": false
+                  "color": "light_purple"
                 },
                 "item_model": "corruption:crying_elytra",
                 "minecraft:equippable": {

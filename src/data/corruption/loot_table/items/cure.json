@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:splash_potion",
+          "name": "minecraft:potion",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_name": {
-                  "translate": "crying_blight.item.purifier",
+                  "translate": "crying_blight.item.cure",
                   "color": "gold",
                   "italic": false
                 },

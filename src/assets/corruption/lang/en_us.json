@@ -1,8 +1,10 @@
 {
     "crying_blight.item.notepad": "Notepad",
+    "crying_blight.item.cure": "Cure",
+    "crying_blight.item.cure.use": "Crystals fall off",
     "crying_blight.item.purifier": "Purifier",
     "crying_blight.item.world_eater": "World Eater",
-    "crying_blight.item.world_eater.lore": "⚠ It will not stop",
+    "crying_blight.item.world_eater.lore": "⚠ It will not stop ⚠",
     "crying_blight.item.tear_of_the_corrupted": "Tear of The Corrupted",
     "crying_blight.item.tear_of_the_corrupted.lore1": "You can still hear it cry",
     "crying_blight.item.tear_of_the_corrupted.lore2": "Passive effect (10 Max)",

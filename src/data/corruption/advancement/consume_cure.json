@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "custom_data": {
+              "pure": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "corruption:items/cure/drink"
+  }
+}

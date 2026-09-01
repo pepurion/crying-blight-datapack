@@ -19,5 +19,4 @@ execute as @s[scores={p_stage=6..}] unless items entity @s armor.head minecraft:
 
 execute as @s[scores={p_stage=7}] run function corruption:player/stage/7/main
 
-execute as @s[scores={p_modification_check=1}] run function corruption:player/mods/1_wings/get_try
 execute as @s[scores={p_modification=1}] run function corruption:player/mods/1_wings/tick

@@ -7,7 +7,7 @@ fill ~-1 ~-1 ~-3 ~1 ~1 ~3 obsidian replace crying_obsidian
 fill ~-3 ~-1 ~-1 ~3 ~1 ~1 obsidian replace crying_obsidian
 
 
-execute as @a[distance=..4,scores={p_corruption=0..}] run scoreboard players remove @s p_corruption 15000
+execute as @a[distance=..4,scores={p_corruption=0..}] run scoreboard players remove @s p_corruption 25000
 execute as @a[distance=..4] run scoreboard players set @s p_healed 1
 
 execute as @a[distance=..4,scores={p_stage=3}] run damage @s 4 explosion
