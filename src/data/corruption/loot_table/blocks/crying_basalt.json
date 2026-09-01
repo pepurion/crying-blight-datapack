@@ -21,6 +21,7 @@
                                         "corruption.item_frame_block"
                                     ],
                                     "Facing": 1,
+                                    "Silent": true,
                                     "Invulnerable": true,
                                     "Invisible": true,
                                     "Fixed": true
