@@ -14,6 +14,9 @@
                                     "translate": "crying_blight.block.crying_blackstone"
                                 },
                                 "minecraft:item_model": "corruption:crying_blackstone",
+                                "custom_data": {
+                                    "block_type": "crying"
+                                },
                                 "entity_data": {
                                     "id": "minecraft:item_frame",
                                     "Tags": [

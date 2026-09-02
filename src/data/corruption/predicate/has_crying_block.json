@@ -1,0 +1,32 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "minecraft:item_frame",
+            "components": {
+              "minecraft:custom_data": {
+                "block_type": "crying"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "container.*": {
+            "items": "minecraft:crying_obsidian"
+          }
+        }
+      }
+    }
+  ]
+}

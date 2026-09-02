@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "corruption:placed_item_frame"
+    "function": "corruption:blocks/placed_item_frame"
   }
 }

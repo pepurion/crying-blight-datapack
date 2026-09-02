@@ -1,4 +1,4 @@
-execute as @s[tag=new] run function corruption:new_block
+execute as @s[tag=new] run function corruption:blocks/new
 
 execute as @s[tag=corruption.crying_obsidian] run function corruption:blocks/crying_obsidian/tick
 execute as @s[tag=corruption.crying_netherrack] run function corruption:blocks/crying_netherrack/tick

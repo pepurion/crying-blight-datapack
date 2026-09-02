@@ -8,6 +8,6 @@ execute as @s[scores={p_cry=5..6}] run scoreboard players add @s p_corruption 15
 execute as @s[scores={p_cry=7..11}] run scoreboard players add @s p_corruption 20
 execute as @s[scores={p_cry=12..}] run scoreboard players add @s p_corruption 50
 
-execute if items entity @s container.* crying_obsidian run scoreboard players add @s p_corruption 2
+execute if predicate corruption:has_crying_block run scoreboard players add @s p_corruption 2
 
 execute if score @s p_stage matches 5.. as @a[distance=0.1..3] unless score @s p_immunity matches 1 unless score @s p_stage matches 5.. run scoreboard players add @s p_corruption 15
