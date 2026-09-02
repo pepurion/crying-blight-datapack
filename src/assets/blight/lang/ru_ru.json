@@ -67,5 +67,11 @@
     "text.crying_blight.stage7.message17": "Малайзия",
     "text.crying_blight.stage7.message18": "Спокойной ночи",
     "text.crying_blight.stage7.message19": "Счастливое место",
-    "text.crying_blight.stage7.message20": "Спи, моя радость"
+    "text.crying_blight.stage7.message20": "Спи, моя радость",
+    
+    "debug.crying_blight.reset_stage": "Стадия сброшена, все дебаффы сняты",
+    "debug.crying_blight.toggle_immunity.on": "Иммунитет включён",
+    "debug.crying_blight.toggle_immunity.off": "Иммунитет выключен",
+    "debug.crying_blight.uninstall": "Датапак готов к удалению",
+    "debug.crying_blight.uninstall.immunity": "⚠ Вам нужно поставить свой счёт %s на %s чтобы удалить (мера безопасности)"
 }

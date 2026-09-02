@@ -1,4 +1,4 @@
-execute as @a at @s unless entity @s[scores={p_immunity=1}] run function blight:player/tick
+execute as @a at @s unless entity @s[scores={p_immunity=1..}] run function blight:player/tick
 
 function blight:items/tick
 

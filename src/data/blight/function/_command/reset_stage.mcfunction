@@ -8,4 +8,4 @@ function blight:player/stage/lose/stage2
 function blight:player/stage/lose/stage1
 stopsound @s
 title @s clear
-tellraw @s {"text":"Stage set to 0, all debuffs cleared","color":"gold"}
+tellraw @s {"translate":"debug.crying_blight.reset_stage","color":"gold"}

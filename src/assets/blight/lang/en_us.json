@@ -67,5 +67,11 @@
     "text.crying_blight.stage7.message17": "Malaysia",
     "text.crying_blight.stage7.message18": "Good night",
     "text.crying_blight.stage7.message19": "Happy place",
-    "text.crying_blight.stage7.message20": "Sweet dreams"
+    "text.crying_blight.stage7.message20": "Sweet dreams",
+    
+    "debug.crying_blight.reset_stage": "Stage is reset, all debuffs are cleared",
+    "debug.crying_blight.toggle_immunity.on": "Immunity turned on",
+    "debug.crying_blight.toggle_immunity.off": "Immunity turned off",
+    "debug.crying_blight.uninstall": "Data pack is ready to be uninstalled",
+    "debug.crying_blight.uninstall.immunity": "⚠ You need to set your %s score to %s to uninstall (safety feature)"
 }
