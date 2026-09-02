@@ -3,9 +3,9 @@ title @s times 5 100 40
 title @s title [{"translate":"crying_blight.stage6.get","color":"dark_purple"}]
 title @s subtitle [{"translate":"crying_blight.stage6.get.sub","italic":true,"color":"dark_purple"}]
 
-playsound minecraft:ambient.soul_sand_valley.mood player @s ~ ~ ~ 12 0.5
+playsound minecraft:ambient.soul_sand_valley.mood player @s ~ ~ ~ 1 0.5
 effect give @s darkness 10 0 true
-playsound minecraft:entity.player.hurt_freeze player @s ~ ~ ~ 12 0.4
+playsound minecraft:entity.player.hurt_freeze player @s ~ ~ ~ 1 0.4
 
 
 attribute @s minecraft:movement_speed modifier add stage6 -0.18 add_multiplied_total

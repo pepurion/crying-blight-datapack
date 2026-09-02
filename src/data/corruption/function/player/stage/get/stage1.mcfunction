@@ -5,4 +5,4 @@ title @s subtitle [{"translate":"crying_blight.stage1.get","bold":true,"color":"
 
 effect give @s slowness 1 10 true
 effect give @s blindness 3 0 true
-playsound entity.warden.heartbeat player @s ~ ~ ~ 12 0.7
+playsound entity.warden.heartbeat player @s ~ ~ ~ 1 0.7

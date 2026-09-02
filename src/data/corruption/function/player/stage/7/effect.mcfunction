@@ -1,10 +1,12 @@
 scoreboard players set @s p_stage7_tick 0
 
-playsound minecraft:block.conduit.ambient player @s ~ ~ ~ 12 0.6
+playsound minecraft:block.conduit.ambient player @s ~ ~ ~ 1 0.6
 effect give @s darkness infinite 0 true
 effect give @s wither infinite 0 true
 
+attribute @s knockback_resistance modifier add obsidian_damage 999 add_value 
 damage @s 6 corruption:obsidian
+attribute @s knockback_resistance modifier remove obsidian_damage
 
 playsound minecraft:entity.player.hurt_freeze block @a ~ ~ ~ 1 0.4
 
