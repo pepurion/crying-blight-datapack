@@ -1,0 +1,11 @@
+scoreboard players set @s p_stage 3
+title @s times 5 100 40
+title @s title [{"text":""}]
+title @s subtitle [{"translate":"text.crying_blight.stage4.lose","color":"aqua"}]
+
+playsound minecraft:entity.breeze.charge player @s ~ ~ ~ 1 0.8
+
+attribute @s minecraft:step_height modifier remove blight:stage4
+attribute @s minecraft:jump_strength modifier remove blight:stage4
+attribute @s minecraft:safe_fall_distance modifier remove blight:stage4
+attribute @s minecraft:armor modifier remove blight:stage4

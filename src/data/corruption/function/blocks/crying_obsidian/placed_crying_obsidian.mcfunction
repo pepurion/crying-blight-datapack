@@ -1,2 +1,0 @@
-advancement revoke @s only corruption:placed_crying_obsidian
-execute unless entity @s[scores={p_freeplace=1}] anchored eyes positioned ^ ^ ^ anchored feet run function corruption:blocks/crying_obsidian/start_ray

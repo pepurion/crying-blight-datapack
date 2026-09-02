@@ -1,0 +1,1 @@
+loot replace entity @s armor.chest loot blight:items/crying_crystal

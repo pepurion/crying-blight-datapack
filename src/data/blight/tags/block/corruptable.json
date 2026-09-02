@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:obsidian",
+    "#blight:netherrack",
+    "minecraft:soul_soil",
+    "minecraft:soul_sand",
+    "#blight:blackstone",
+    "minecraft:basalt"
+  ]
+}

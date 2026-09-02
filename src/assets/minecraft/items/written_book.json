@@ -11,7 +11,7 @@
             "when": "notepad",
             "model": {
                "type": "model",
-               "model": "corruption:item/notepad"
+               "model": "blight:item/notepad"
             }
          }
       ]

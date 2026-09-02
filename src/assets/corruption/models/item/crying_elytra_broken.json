@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "corruption:item/crying_elytra_broken"
-  }
-}

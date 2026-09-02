@@ -11,7 +11,7 @@
             "when": "crystal_head",
             "model": {
                "type": "model",
-               "model": "corruption:item/crystal_head"
+               "model": "blight:item/crystal_head"
             }
          }
       ]

@@ -1,0 +1,3 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:potion",components:{"minecraft:custom_data":{"pure":true}}}},distance=..4] at @s if block ~ ~-1 ~ crafting_table if entity @e[type=item,nbt={Item:{id:"minecraft:gunpowder"}},distance=..0.5] run function blight:items/crafting/purifier
+
+execute as @e[type=item,nbt={Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:mundane"}}}},distance=..4] at @s if block ~ ~-1 ~ crafting_table if entity @e[type=item,nbt={Item:{id:"minecraft:resin_clump"}},distance=..0.5] if entity @e[type=item,nbt={Item:{id:"minecraft:lily_of_the_valley"}},distance=..0.5] run function blight:items/crafting/cure

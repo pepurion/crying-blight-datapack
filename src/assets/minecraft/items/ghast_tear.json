@@ -11,7 +11,7 @@
             "when": "corrupted",
             "model": {
                "type": "model",
-               "model": "corruption:item/tear_of_the_corrupted"
+               "model": "blight:item/tear_of_the_corrupted"
             }
          }
       ]

@@ -1,0 +1,2 @@
+advancement revoke @s only blight:placed_crying_obsidian
+execute unless entity @s[scores={p_freeplace=1}] anchored eyes positioned ^ ^ ^ anchored feet run function blight:blocks/crying_obsidian/start_ray

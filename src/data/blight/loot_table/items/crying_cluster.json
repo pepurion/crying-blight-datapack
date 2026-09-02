@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_cluster",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": {
+                  "translate": "item.crying_blight.crystal_head",
+                  "color": "light_purple"
+                },
+                "custom_model_data": {
+                  "strings": ["crystal_head"]
+                },
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "camera_overlay": "blight:overlay/corrupted_effect_screen"
+                },
+                "enchantment_glint_override": false,
+                "enchantments": {
+                  "binding_curse": 1,
+                  "vanishing_curse": 1
+                },
+                "tooltip_display": {
+                  "hidden_components": [
+                    "enchantments"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

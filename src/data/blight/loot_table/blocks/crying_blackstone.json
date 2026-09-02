@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "block.crying_blight.crying_blackstone"
+                                },
+                                "minecraft:item_model": "blight:crying_blackstone",
+                                "custom_data": {
+                                    "block_type": "crying"
+                                },
+                                "entity_data": {
+                                    "id": "minecraft:item_frame",
+                                    "Tags": [
+                                        "blight.crying_blackstone",
+                                        "blight.item_frame_block"
+                                    ],
+                                    "Facing": 1,
+                                    "Silent": true,
+                                    "Invulnerable": true,
+                                    "Invisible": true,
+                                    "Fixed": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
