@@ -70,6 +70,8 @@
     "text.crying_blight.stage7.message20": "Sweet dreams",
     
     "debug.crying_blight.reset_stage": "Stage is reset, all debuffs are cleared",
+    "debug.crying_blight.toggle_freeplace.on": "Freeplace turned on",
+    "debug.crying_blight.toggle_freeplace.off": "Freeplace turned off",
     "debug.crying_blight.toggle_immunity.on": "Immunity turned on",
     "debug.crying_blight.toggle_immunity.off": "Immunity turned off",
     "debug.crying_blight.uninstall": "Data pack is ready to be uninstalled",

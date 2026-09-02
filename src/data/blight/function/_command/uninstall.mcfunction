@@ -21,21 +21,15 @@ execute if score @s p_immunity matches 6 run title @a clear
 
 execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_ray_steps
 execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_ray_success
-execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_air
 execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_corr_timer
 execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_corr_margin
 execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_sadness
-execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_random
-execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_direction
-execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_sleep
-execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_structure
+execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_count
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_blight
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_stage
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_healed
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_cry
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_tick
-execute if score @s p_immunity matches 6 run scoreboard objectives remove p_tear
-execute if score @s p_immunity matches 6 run scoreboard objectives remove p_immunity
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_freeplace
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_item_tear
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_stage7_tick
@@ -48,3 +42,5 @@ execute if score @s p_immunity matches 6 run scoreboard objectives remove p_used
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_used_trident
 
 execute if score @s p_immunity matches 6 run tellraw @s {"translate":"debug.crying_blight.uninstall","color":"gold"}
+
+execute if score @s p_immunity matches 6 run scoreboard objectives remove p_immunity

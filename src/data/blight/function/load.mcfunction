@@ -1,16 +1,11 @@
 scoreboard objectives add cb_ray_steps dummy
 scoreboard objectives add cb_ray_success dummy
 
-scoreboard objectives add cb_air dummy
 scoreboard objectives add cb_corr_timer dummy
 scoreboard objectives add cb_corr_margin dummy
 scoreboard objectives add cb_sadness dummy
 
-scoreboard objectives add cb_random dummy
-scoreboard objectives add cb_direction dummy
-
-scoreboard objectives add cb_sleep dummy
-scoreboard objectives add cb_structure dummy
+scoreboard objectives add cb_count dummy
 
 scoreboard objectives add p_blight dummy "Crying Blight"
 scoreboard objectives add p_stage dummy "Stage"
@@ -18,7 +13,6 @@ scoreboard objectives add p_healed dummy "Is Healed"
 
 scoreboard objectives add p_cry dummy "Obby Proximity"
 scoreboard objectives add p_tick dummy "Effect Tick"
-scoreboard objectives add p_tear dummy "Tear Tick"
 
 scoreboard objectives add p_immunity dummy "Immunity"
 scoreboard objectives add p_freeplace dummy "Free Obby Place"

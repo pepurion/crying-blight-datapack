@@ -70,6 +70,8 @@
     "text.crying_blight.stage7.message20": "Спи, моя радость",
     
     "debug.crying_blight.reset_stage": "Стадия сброшена, все дебаффы сняты",
+    "debug.crying_blight.toggle_freeplace.on": "Свободное размещение включено",
+    "debug.crying_blight.toggle_freeplace.off": "Свободное размещение выключено",
     "debug.crying_blight.toggle_immunity.on": "Иммунитет включён",
     "debug.crying_blight.toggle_immunity.off": "Иммунитет выключен",
     "debug.crying_blight.uninstall": "Датапак готов к удалению",
