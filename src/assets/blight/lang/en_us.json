@@ -69,7 +69,9 @@
     "text.crying_blight.stage7.message19": "Happy place",
     "text.crying_blight.stage7.message20": "Sweet dreams",
     
-    "debug.crying_blight.reset_stage": "Stage is reset, all debuffs are cleared",
+    "debug.crying_blight.stage_advance": "Stage advanced to",
+    "debug.crying_blight.stage_reduce": "Stage reduced to",
+    "debug.crying_blight.stage_reset": "Stage is reset, all debuffs are cleared",
     "debug.crying_blight.toggle_freeplace.on": "Freeplace turned on",
     "debug.crying_blight.toggle_freeplace.off": "Freeplace turned off",
     "debug.crying_blight.toggle_immunity.on": "Immunity turned on",

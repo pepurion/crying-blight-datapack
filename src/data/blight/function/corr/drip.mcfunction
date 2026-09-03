@@ -1,2 +1,0 @@
-setblock ~ ~ ~ obsidian
-kill @s

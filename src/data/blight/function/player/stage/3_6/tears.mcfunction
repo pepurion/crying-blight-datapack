@@ -1,1 +1,0 @@
-particle minecraft:falling_obsidian_tear ~ ~0.7 ~ 0.23 0.35 0.23 0 1

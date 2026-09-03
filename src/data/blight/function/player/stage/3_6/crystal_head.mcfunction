@@ -1,1 +1,0 @@
-loot replace entity @s armor.head loot blight:items/crying_cluster

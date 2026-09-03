@@ -1,16 +1,15 @@
 scoreboard players set @s p_stage7_tick 0
 
-playsound minecraft:block.conduit.ambient player @s ~ ~ ~ 1 0.6
+playsound minecraft:block.conduit.ambient player @s ~ ~ ~ 10 0.6
 effect give @s darkness infinite 0 true
-effect give @s wither infinite 0 true
+effect give @s wither infinite 1 true
 
 attribute @s knockback_resistance modifier add blight:obsidian_damage 999 add_value 
-damage @s 6 blight:obsidian
+damage @s 5 blight:obsidian
 attribute @s knockback_resistance modifier remove blight:obsidian_damage
 
 playsound minecraft:entity.player.hurt_freeze block @a ~ ~ ~ 1 0.4
 
-title @s times 20 60 40
 execute store result score @s cb_count run random value 1..20
 execute as @s[scores={cb_count=1}] run title @s actionbar [{"translate":"text.crying_blight.stage7.message1","color":"dark_purple"}]
 execute as @s[scores={cb_count=2}] run title @s actionbar [{"translate":"text.crying_blight.stage7.message2","color":"dark_purple"}]

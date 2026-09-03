@@ -1,6 +1,7 @@
-execute unless block ~ ~ ~ #blight:corruptable run scoreboard players add @s cb_sadness 5
-#execute if block ~ ~ ~ #blight:corruptable run scoreboard players remove @s cb_sadness 1
-execute if score @s cb_sadness matches 15.. run function blight:corr/sleep
+execute unless block ~ ~ ~ #blight:corruptable run scoreboard players add @s cb_sadness 2
+execute if block ~ ~ ~ #blight:corruptable run scoreboard players add @s cb_sadness 5
+
+execute if score @s cb_sadness matches 16.. run function blight:corr/sleep
 
 execute if block ~ ~ ~ #blight:corruptable run playsound minecraft:block.sculk.step block @a ~ ~ ~ 1 0.65
 

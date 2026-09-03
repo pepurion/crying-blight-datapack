@@ -28,8 +28,7 @@ execute if score @s p_immunity matches 6 run scoreboard objectives remove cb_cou
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_blight
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_stage
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_healed
-execute if score @s p_immunity matches 6 run scoreboard objectives remove p_cry
-execute if score @s p_immunity matches 6 run scoreboard objectives remove p_tick
+execute if score @s p_immunity matches 6 run scoreboard objectives remove p_proximity
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_freeplace
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_item_tear
 execute if score @s p_immunity matches 6 run scoreboard objectives remove p_stage7_tick

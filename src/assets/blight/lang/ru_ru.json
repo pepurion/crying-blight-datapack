@@ -69,7 +69,9 @@
     "text.crying_blight.stage7.message19": "Счастливое место",
     "text.crying_blight.stage7.message20": "Спи, моя радость",
     
-    "debug.crying_blight.reset_stage": "Стадия сброшена, все дебаффы сняты",
+    "debug.crying_blight.stage_advance": "Стадия продвинута до",
+    "debug.crying_blight.stage_reduce": "Стадия снижена до",
+    "debug.crying_blight.stage_reset": "Стадия сброшена, все дебаффы сняты",
     "debug.crying_blight.toggle_freeplace.on": "Свободное размещение включено",
     "debug.crying_blight.toggle_freeplace.off": "Свободное размещение выключено",
     "debug.crying_blight.toggle_immunity.on": "Иммунитет включён",

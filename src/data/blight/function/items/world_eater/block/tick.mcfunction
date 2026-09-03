@@ -1,4 +1,4 @@
-execute if score @s cb_sadness matches 5.. as @e[distance=..0.85,type=!marker] unless score @s p_immunity matches 1 run kill @s
+execute if score @s cb_sadness matches 5.. as @e[distance=..0.85,type=!marker] unless score @s p_immunity matches 1.. run kill @s
 execute if score @s cb_sadness matches 5.. run kill @s
 
 execute store result score @s cb_corr_margin run random value 2..3

@@ -10,9 +10,7 @@ scoreboard objectives add cb_count dummy
 scoreboard objectives add p_blight dummy "Crying Blight"
 scoreboard objectives add p_stage dummy "Stage"
 scoreboard objectives add p_healed dummy "Is Healed"
-
-scoreboard objectives add p_cry dummy "Obby Proximity"
-scoreboard objectives add p_tick dummy "Effect Tick"
+scoreboard objectives add p_proximity dummy "Obby Proximity"
 
 scoreboard objectives add p_immunity dummy "Immunity"
 scoreboard objectives add p_freeplace dummy "Free Obby Place"
