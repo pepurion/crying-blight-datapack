@@ -7,7 +7,10 @@
     },
     "equipment": {
       "chest": {
-        "items": "minecraft:chainmail_chestplate"
+        "items": "minecraft:chainmail_chestplate",
+        "components": {
+          "item_model": "blight:crying_elytra"
+        }
       }
     }
   }

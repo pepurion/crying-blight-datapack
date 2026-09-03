@@ -1,6 +1,6 @@
 execute as @s[scores={p_proximity=3..}] run scoreboard players add @s p_wings_tick 2
 execute as @s[scores={p_proximity=7..}] run scoreboard players add @s p_wings_tick 1
-execute as @s[scores={p_wings_tick=190..}] run function blight:player/mods/1_wings/repair
+execute as @s[scores={p_wings_tick=140..}] run function blight:player/mods/1_wings/repair
 
 
 execute as @s[scores={p_used_rocket=1..}] if predicate blight:flying_with_crying_wings run function blight:player/mods/1_wings/break

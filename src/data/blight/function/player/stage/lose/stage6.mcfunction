@@ -10,5 +10,3 @@ attribute @s minecraft:movement_speed modifier remove blight:stage6
 attribute @s minecraft:armor modifier remove blight:stage6
 
 item replace entity @s armor.head with air
-
-scoreboard players set @s p_modification 0
