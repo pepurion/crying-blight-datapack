@@ -5,7 +5,7 @@ title @s subtitle [{"translate":"crying_blight.stage3.get.sub","italic":true,"co
 
 playsound minecraft:entity.player.hurt_freeze player @s ~ ~ ~ 1 0.4
 effect give @s blindness 4 0 true
-playsound entity.warden.heartbeat player @s ~ ~ ~ 1 0.7
+playsound entity.warden.heartbeat player @s ~ ~ ~ 10 0.7
 
 attribute @s knockback_resistance modifier add obsidian_damage 999 add_value 
 damage @s 2 corruption:obsidian

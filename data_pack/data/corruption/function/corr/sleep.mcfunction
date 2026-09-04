@@ -1,11 +1,8 @@
-execute store result score @s sleep run random value 1..5
-execute at @s[scores={sleep=1..2},tag=corruption.crying_blackstone] run setblock ~ ~ ~ magma_block
+execute at @s if predicate {"condition":"random_chance","chance":0.2} run setblock ~ ~ ~ obsidian
 
-execute store result score @s sleep run random value 1..5
-execute at @s[scores={sleep=1}] run setblock ~ ~ ~ obsidian
+execute at @s[tag=corruption.crying_blackstone] if predicate {"condition":"random_chance","chance":0.4} run setblock ~ ~ ~ magma_block
 
-execute store result score @s sleep run random value 1..1000
-execute at @s[scores={sleep=1}] if block ~ ~1 ~ #minecraft:air run function corruption:corr/structure
-execute at @s[scores={sleep=2}] if block ~ ~-1 ~ #minecraft:air run function corruption:corr/structure_down
+execute at @s if predicate {"condition":"random_chance","chance":0.001} if block ~ ~1 ~ #minecraft:air run function corruption:corr/structure
+execute at @s if predicate {"condition":"random_chance","chance":0.001} if block ~ ~-1 ~ #minecraft:air run function corruption:corr/structure_down
 
 kill @s

@@ -10,8 +10,4 @@ execute as @s[scores={p_used_trident=1..}] if predicate corruption:flying_with_c
 scoreboard players reset @s p_used_trident
 
 
-execute if predicate corruption:flying_with_crying_wings unless score @s p_wings_open matches 1 run function corruption:player/mods/1_wings/takeoff
-execute unless predicate corruption:flying_with_crying_wings if score @s p_wings_open matches 1 run scoreboard players reset @s p_wings_open
-
-
 execute unless items entity @s armor.chest chainmail_chestplate[minecraft:item_model="corruption:crying_elytra"] run loot replace entity @s armor.chest loot corruption:items/crying_wings

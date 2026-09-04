@@ -1,6 +1,7 @@
-execute unless block ~ ~ ~ #corruption:corruptable run scoreboard players add @s sadness 5
-#execute if block ~ ~ ~ #corruption:corruptable run scoreboard players remove @s sadness 1
-execute if score @s sadness matches 15.. run function corruption:corr/sleep
+execute unless block ~ ~ ~ #corruption:corruptable run scoreboard players add @s sadness 2
+execute if block ~ ~ ~ #corruption:corruptable run scoreboard players add @s sadness 5
+
+execute if score @s sadness matches 16.. run function corruption:corr/sleep
 
 execute if block ~ ~ ~ #corruption:corruptable run playsound minecraft:block.sculk.step block @a ~ ~ ~ 1 0.65
 

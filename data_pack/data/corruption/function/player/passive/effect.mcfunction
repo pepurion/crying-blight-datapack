@@ -1,5 +1,3 @@
-scoreboard players set @s p_tick 0
-
 execute as @s[scores={p_stage=1..3}] run playsound entity.warden.heartbeat player @s ~ ~ ~ 1 0.7
 execute as @s[scores={p_stage=4..6}] run playsound minecraft:entity.ghast.ambient ambient @s ~ ~ ~ 1 0.5
 
