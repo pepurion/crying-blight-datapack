@@ -5,10 +5,10 @@
 # About
 This version of the data pack is made as continuation to the Chaotic Neutral MC Branch's server data pack. Main changes:
 - Much more optimized
-- Every feature that was locked behind brewery should be available with vanilla mechanics
+- Every feature that was locked behind brewery should be available with vanilla features
 - All server items (except books) are available through loot tables (use /loot)
 
-It will stay compatible with the original world. 
+This branch will always stay compatible with the original world.
 
 The files include both data and resource packs, and it is advised to replace the data pack in the world, even if you already have it there and only need the resource pack. I cannot guarantee compatibility between different versions.
 
