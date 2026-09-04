@@ -1,8 +1,18 @@
 # Info
-- Originally made for Chaotic Neutral server
+- Made for Chaotic Neutral
 - Minecraft 1.21.10
 
-This pack was created for a community server around December 2025. It was being developed live with server progression, some features were locked behind non-vanilla systems, so balance might be off. On large scale the blight can be horribly unoptimized, but I did my best to minimize the TPS lag.
+# About
+This version of the data pack is made as continuation to the Chaotic Neutral MC Branch's server data pack. Main changes:
+- Much more optimized
+- Every feature that was locked behind brewery should be available with vanilla mechanics
+- All server items (except books) are available through loot tables (use /loot)
+
+It will stay compatible with the original world. 
+
+The files include both data and resource packs, and it is advised to replace the data pack in the world, even if you already have it there and only need the resource pack. I cannot guarantee compatibility between different versions.
+
+Thank you to everyone who played on the server, even to those who did for like an hour and never came back. <3
 
 # Credits
 Crying Wings texture and model - [DwEclipse](https://www.planetminecraft.com/texture-pack/eclipse-s-better-elytras/)
