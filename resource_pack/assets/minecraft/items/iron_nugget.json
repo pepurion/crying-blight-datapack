@@ -1,0 +1,19 @@
+{
+   "model": {
+      "type": "select",
+      "property": "custom_model_data",
+      "fallback": {
+         "type": "model",
+         "model": "item/iron_nugget"
+      },
+      "cases": [
+         {
+            "when": "half_key1",
+            "model": {
+               "type": "model",
+               "model": "chaotic:item/key"
+            }
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": {
+                  "text": "Tasty Faust Plush"
+                },
+                "item_model": "chaotic:plush/faust"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

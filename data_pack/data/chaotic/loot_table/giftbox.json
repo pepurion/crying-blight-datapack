@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "item_name": {
+                  "text": "Gift"
+                },
+                "item_model": "chaotic:giftbox",
+                "equippable": {
+                  "slot": "head"
+                },
+                "tooltip_display": {
+                  "hidden_components": [
+                    "bundle_contents",
+                    "container"
+                  ]
+                }
+
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
