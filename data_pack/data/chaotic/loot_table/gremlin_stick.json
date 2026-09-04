@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "attribute_modifiers": [
+                  {
+                    "type": "scale",
+                    "amount": -0.5,
+                    "operation": "add_value",
+                    "id": "chaotic:gremlin_stick",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "luck",
+                    "amount": 5.0,
+                    "operation": "add_value",
+                    "id": "chaotic:gremlin_stick",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "block_interaction_range",
+                    "amount": -2.0,
+                    "operation": "add_value",
+                    "id": "chaotic:gremlin_stick",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "entity_interaction_range",
+                    "amount": -2.0,
+                    "operation": "add_value",
+                    "id": "chaotic:gremlin_stick",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "max_health",
+                    "amount": -0.5,
+                    "operation": "add_multiplied_base",
+                    "id": "chaotic:gremlin_stick",
+                    "slot": "offhand"
+                  }
+                ],
+                "lore": [
+                  {
+                    "text": "Lil' and squishy",
+                    "color": "green",
+                    "italic": false
+                  }
+                ],
+                "enchantment_glint_override": true,
+                "custom_name": {
+                  "text": "Gremlin Stick",
+                  "italic": false,
+                  "bold": true,
+                  "color": "dark_green"
+                }
+
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

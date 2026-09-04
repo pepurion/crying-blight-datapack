@@ -10,9 +10,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "item_name": {
-                  "text": "Половинка ключа"
-                },
+                "custom_name": "Половина ключа",
                 "custom_model_data": {
                   "strings": ["half_key1"]
                 }

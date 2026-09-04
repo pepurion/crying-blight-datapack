@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "attribute_modifiers": [
+                  {
+                    "type": "block_break_speed",
+                    "amount": 0.3,
+                    "operation": "add_multiplied_total",
+                    "id": "chaotic:meteor_chestplate",
+                    "slot": "armor"
+                  },
+                  {
+                    "type": "armor",
+                    "amount": 10.0,
+                    "operation": "add_value",
+                    "id": "chaotic:meteor_chestplate",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "armor_toughness",
+                    "amount": 3.0,
+                    "operation": "add_value",
+                    "id": "chaotic:meteor_chestplate",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "attack_knockback",
+                    "amount": 1.0,
+                    "operation": "add_value",
+                    "id": "chaotic:meteor_chestplate",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "attack_damage",
+                    "amount": -0.25,
+                    "operation": "add_multiplied_total",
+                    "id": "chaotic:meteor_chestplate",
+                    "slot": "armor"
+                  }
+                ],
+                "unbreakable": {},
+                "lore": [
+                  {
+                    "text": "1/4 pieces",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "custom_name": {
+                  "text": "Meteor Chestplate",
+                  "italic": false,
+                  "bold": true,
+                  "color": "light_purple"
+                },
+                "trim": {
+                  "material": "amethyst",
+                  "pattern": "bolt"
+                },
+                "tooltip_display": {
+                  "hidden_components": [
+                    "trim"
+                  ]
+                }
+
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

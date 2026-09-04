@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "attribute_modifiers": [
+                  {
+                    "type": "step_height",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "id": "chaotic:meteor_boots",
+                    "slot": "armor"
+                  },
+                  {
+                    "type": "armor",
+                    "amount": 5.0,
+                    "operation": "add_value",
+                    "id": "chaotic:meteor_boots",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "armor_toughness",
+                    "amount": 3.0,
+                    "operation": "add_value",
+                    "id": "chaotic:meteor_boots",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "attack_knockback",
+                    "amount": 1.0,
+                    "operation": "add_value",
+                    "id": "chaotic:meteor_boots",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "jump_strength",
+                    "amount": -1.0,
+                    "operation": "add_multiplied_total",
+                    "id": "chaotic:meteor_boots",
+                    "slot": "armor"
+                  }
+                ],
+                "unbreakable": {},
+                "lore": [
+                  {
+                    "text": "1/4 pieces",
+                    "color": "dark_gray",
+                    "italic": false
+                  }
+                ],
+                "custom_name": {
+                  "text": "Meteor Boots",
+                  "italic": false,
+                  "bold": true,
+                  "color": "light_purple"
+                },
+                "trim": {
+                  "material": "amethyst",
+                  "pattern": "bolt"
+                },
+                "tooltip_display": {
+                  "hidden_components": [
+                    "trim"
+                  ]
+                }
+
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
